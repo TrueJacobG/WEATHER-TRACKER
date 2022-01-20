@@ -11,7 +11,7 @@ def display(weather_type, description, temp, temp_feels, pressure, humidity, win
 
 
 def weather():
-    API_KEY = "10a1c31585fcc11e2883ffb5311396e6"
+    API_KEY = ""
     URL = "http://api.openweathermap.org/data/2.5/weather"
 
     if len(sys.argv) == 1:
